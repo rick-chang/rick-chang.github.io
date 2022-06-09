@@ -91,7 +91,7 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <p>I am a research scientist at Apple. Our team focuses on enabling high-performance and low-power machine learning solutions through vertical integration -- from algorithm to silicon. My research has been incorporated into products, e.g., keyboard quickpath on iOS 14 and on handwriting on iPadOS 14.5.  My current research interests are broadly in generative models, computational photography, and novel sensors.</p>
+                <p>I am a research scientist at Apple. Our team focuses on enabling high-performance and low-power machine learning solutions through vertical integration -- from algorithm to silicon. My research has been incorporated into various Apple products, e.g., Scribble on iPad and keyboard quickpath on iOS and watchOS. My current research interests are broadly in generative models, computational photography, and novel sensors.</p>
 
                 <p>Before joining Apple in 2020, I received my PhD from the ECE department of Carnegie Mellon University, where I worked with professor <a href="https://users.ece.cmu.edu/~kumar/">Vijayakumar Bhagavatula</a> and professor <a href="https://users.ece.cmu.edu/~saswin/">Aswin Sankaranarayanan</a> on computational photography and displays, computer vision, and machine learning. I received my M.S and B.S degrees in electrical engineering from National Taiwan University working with professor <a href="http://teilab.ee.ntu.edu.tw/#/home">Tian-Li Yu</a>, and I worked with Dr. <a href="http://mml.citi.sinica.edu.tw">Yu-Chiang Frank Wang</a> on image processing as a research assistant.</p>
             </div>
@@ -107,6 +107,38 @@
                     <h2>Research</h2>
                 </div>
             </div>
+            <div class="row color_row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#portfolioModal_crf" class="portfolio-link" data-toggle="modal">
+                        <img src="img/research/style_equalization/se.svg" class="img-responsive" alt="">
+                    </a>  
+                </div>
+                <div class="col-md-8 portfolio-row">
+                    <div class="portfolio-text">
+                        <h4>Controllable Generative Models</h4>
+                        Can generative models improve recognizers? In this line of works, we develop novel controllable generative models for sequence data (e.g., speech and handwriting) that generates realistic samples, and we demonstrate conditions under which synthetic data significantly benefit downstream recognizers. 
+                        <p> <br>
+                        Papers accepted by <br> ICML 2022 (<a href="https://apple.github.io/ml-style-equalization/">paper 1</a>) <br> ICASSP 2022 (<a href="https://arxiv.org/abs/2110.07040">paper 2</a>, <a href="https://arxiv.org/abs/2110.11479">paper 3</a>)
+                        </p>
+                    </div>    
+                </div>  
+            </div> 
+            <div class="row color_row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#portfolioModal_crf" class="portfolio-link" data-toggle="modal">
+                        <img src="img/research/token_pooling/token_pooling.svg" class="img-responsive" alt="">
+                    </a>  
+                </div>
+                <div class="col-md-8 portfolio-row">
+                    <div class="portfolio-text">
+                        <h4>Token Pooling for Vision Transformers</h4>
+                        We propose an efficient pooling (token downsampling) algorithm for transformer models. Our analysis shows that softmax attention is a high-dimensional low-pass filter on the input tokens. This means every attention layer produces redundant information. Based on our analysis, we design an algorithm that carefully prunes the redundancy. Simply by inserting our Token Pooling layer after each attention layer, we achieve same accuracy as our baseline models with 40% improvement in compuration cost on ImageNet-1k.
+                        <p> <br>
+                        <a href="https://arxiv.org/abs/2110.03860">paper link</a>
+                        </p>
+                    </div>    
+                </div>  
+            </div> 
             <div class="row color_row">
                 <div class="col-md-4 portfolio-item">
                     <a href="#portfolioModal_crf" class="portfolio-link" data-toggle="modal">
