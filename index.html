@@ -110,6 +110,33 @@
 
             <div class="row color_row">
                 <div class="col-md-4 portfolio-item">
+                    <a href="#portfolioModal_overlapping" class="portfolio-link" data-toggle="modal">
+                        <!-- <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        -->
+                    </a>  
+                </div>
+                <div class="col-md-8 portfolio-row">
+                    <div class="portfolio-text">
+                        <h4>RayRoPE: Projective Ray Positional Encoding for Multi-view Attention</h4>
+                        We design a new relative positional encoding for multi-view images. What I like about the paper is how we model uncertainty analytically with the expected positional encoding.  
+                        <p> 
+                        <br>
+                        ECCV 2026 (spotlight), 
+                        <a href="https://rayrope.github.io">project page</a>,  
+                        <a href="https://arxiv.org/abs/2601.15275">paper</a>,  
+                        <a href="https://github.com/Lucas-707/RayRoPE">code</a> 
+                        </p>
+                    </div>    
+                </div>  
+            </div> 
+
+
+            <div class="row color_row">
+                <div class="col-md-4 portfolio-item">
                     <a href="#portfolioModal_crf" class="portfolio-link" data-toggle="modal">
                         <video src="img/research/velox/velox.mov" autoplay muted loop playsinline class="img-responsive"></video>
                     </a>  
@@ -117,11 +144,12 @@
                 <div class="col-md-8 portfolio-row">
                     <div class="portfolio-text">
                         <h4>Velox 🚀: Learning Representations of 4D Geometry and Appearance</h4>
-                        We propose a tokenization technique to compress dynamic 3D scenes (ie, 4D scenes) into a fixed number of continuous tokens. The most interesting thing I like about the paper is that we are able to represent dynamic scenes without temporal correspondence. Read the paper to see how we do this. 
+                        We propose a tokenization technique to compress dynamic 3D scenes (ie, 4D scenes) into a fixed number of continuous tokens. The most interesting thing I like about the paper is that we are able to represent dynamic scenes without temporal correspondence. Read the paper to see how we are ableo to do this. 
                         <p> 
+                        <br>
                         CVPR 2026, 
                         <a href="https://apple-aiml-research.github.io/ml-velox/">project page</a>,  
-                        <a href="https://arxiv.org/abs/2605.04527">paper</a>,  
+                        <a href="https://arxiv.org/abs/2605.04527">paper</a>
                         </p>
                     </div>    
                 </div>  
@@ -139,6 +167,7 @@
                         <h4>LiTo: Surface Light Field Tokenization</h4>
                         We propose a tokenization technique to compress 3D scenes with view-dependent appearance into a fixed number of continuous tokens. I like about the paper because it shows when the details are done right, a simple method can give you state-of-the-art reconstruction and image-to-3D generation quality.  
                         <p> 
+                        <br>
                         ICLR 2026, 
                         <a href="https://apple-aiml-research.github.io/ml-lito/">project page</a>,  
                         <a href="https://arxiv.org/abs/2603.11047">paper</a>,  
@@ -159,6 +188,7 @@
                         <h4>3D Shape Tokenization</h4>
                         We learn a 3D shape representation that is versitile, efficient, and easy to learn. The representation is learned by treating 3D surfaces as probabilistic density functions in 3D and utilizing flow matching to make the density function align with the 3D surfaces. We show that the learned representation can be used in a wide range of applications, including single-image to 3D, zero-shot 3D classification, and neural rendering of normal and depth maps. On all tasks, models based on our representation shows strong performance compared to individual state-of-the-art of each task.  
                         <p> 
+                        <br>
                         <a href="https://machinelearning.apple.com/research/3d-shape-tokenization">paper and more info</a>,  
                         </p>
                     </div>    
@@ -173,9 +203,11 @@
                 </div>
                 <div class="col-md-8 portfolio-row">
                     <div class="portfolio-text">
-                        <h4>Novel view acoustic synthesis</h4>
+                        <h4>Novel-View Acoustic Synthesis from 3D Reconstructed Rooms</h4>
                         Novel-view synthesis of images is already a difficult problem; how about novel-view synthesis of sound? The "acoustic camera", i.e., a microphone, has a much lower resolution than photo cameras, and it captures sound from all sound sources, which are echoed differently from the scene. It is a very challenging problem. In this project, we demonstrate we are able to reconstruct the acoustic scene and synthesize spatial audio at any location in a 3d reconstructed scene.
                         <p> 
+                        <br>
+                        InterSpeech 2024, 
                         <a href="https://docs-assets.developer.apple.com/ml-research/models/nvas/nvas3d_turn.mp4">demo video (with headphone)</a>,  
                         <a href="https://github.com/apple/ml-nvas3d">code and model</a> 
                         </p>
@@ -194,6 +226,7 @@
                         <h4>Ray tracining on point clouds</h4>
                         Can we directly perform novel-view synthesis on a scene captured by a depth camera directly without any per-scene optimization? How do we perform ray tracing on a scene represented by point clouds?  In this project, we develop a first step toward the goal.
                         <p> 
+                        <br>
                         <a href="https://machinelearning.apple.com/research/pointersect">CVPR 2023</a>, 
                         <a href="https://github.com/apple/ml-pointersect">code and model</a> 
                         </p>
